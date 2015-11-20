@@ -1,19 +1,19 @@
-var now = new Date(); var days = new Array('Minggu', 
+var d = new Date();
+var curr_hour = d.getHours();
+var curr_min = d.getMinutes();
+curr_min = curr_min + "";
+if (curr_min.length == 1) {
+    curr_min = "0" + curr_min;
+}
+document.write(curr_hour + " : " + curr_min);
 
-'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 
-
-'Sabtu'); var date = ((now.getDate()<10) ? "0" : 
-
-"")+ now.getDate(); function fourdigits(number) { 
-
-return (number < 1000) ? number + 1900 : number; } 
-
-var months = new Array('Januari', 'Februari', 
-
-'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 
-
-'September', 'Oktober', 'November', 'Desember'); 
-
-today = days[now.getDay()] + "<br/>" + date + " " + 
-
-months[now.getMonth()]; document.write(today);
+var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+var date = new Date();
+var day = date.getDate();
+var month = date.getMonth();
+var thisDay = date.getDay(),
+    thisDay = myDays[thisDay];
+var yy = date.getYear();
+var year = (yy < 1000) ? yy + 1900 : yy;
+document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);

@@ -3,6 +3,16 @@
 
 //------------ Jantung Pay-Store --------------------------------------
 /* <![CDATA[ */
+document.write('<div id="credit-ngisor">'
++'<div class="welkir<div class="gambar-blog"/><a href="/"><img width="40" class="gambar-blog" src="http://2.bp.blogspot.com/-M6PimXa8d1Y/Vj899A3tvaI/AAAAAAAAARo/A4J8J0_evDE/s1600/logo.png"/></a>rsa</div>'
++'<div class="welkanan"> '
++'<div class="welteks">'
++'<div class="welteks1">'+''+Nama_blog_anda+''+'</div>'
++'<div class="welteks2"><span onclick="shutdown()">Shutdown</span></div></div>'
++'<div class="welfoto"><div class="gambar-blog"/><a href="/"><img width="40" class="gambar-blog" src="'+''+Icon_blog_anda+''+'" title="'+''+Nama_blog_anda+''+'"/></a></div>'
++'</div>'
++'</div>');
+document.write('</div>');
 document.write('<div id="da-vinci-carousel">'
 +'<a class="mindah-jantung" href="javascript:void(0)" onclick="$(\'tabs-outer,.header-outer,.main-outer\').slideDown(3500);$(\'#jantung-irvan\').fadeOut(\'slow\');" title="Lihat Posting"><img class="cloudcarousel" src="http://2.bp.blogspot.com/-V61wKG_1dKk/URNrpfP9vVI/AAAAAAAAB_Q/K-Kq0JF_2Lw/s150/posting-windows-sm.jpg"/></a>'
 +'<a class="mindah-jantung" href="'+''+Url_twitter_anda+''+'" title="Twitter"><img class="cloudcarousel" src="http://4.bp.blogspot.com/-TKzTJCcq1ic/URNrtVUgTSI/AAAAAAAAB_o/8r6TJ6iQx2c/s150/twitter-windows-sm.jpg"/></a>'
